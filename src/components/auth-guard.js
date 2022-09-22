@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/router';
 import PropTypes from 'prop-types';
 import { useAuthContext } from '../contexts/auth-context';
-
+//aqui tiro la prueba de commit
 export const AuthGuard = (props) => {
   const { children } = props;
   const router = useRouter();
